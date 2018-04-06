@@ -1,0 +1,14 @@
+uuid: 49e6de25-a34f-47cd-8bcc-6ed4586ac28c
+name: ychen-nashville-2018-training
+mail: yc@usp.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
