@@ -20,6 +20,8 @@ terminus -n drush "$TERMINUS_SITE.$TERMINUS_ENV" -- updatedb -y
 # "The website encountered an unexpected error. Please try again later." error on First Visit
 terminus -n drush "$TERMINUS_SITE.$TERMINUS_ENV" cr
 
+./scripts/slack/send-message
+
 # If exported configuration is available, then import it.
 if [ -f "config/system.site.yml" ] ; then
   terminus -n drush "$TERMINUS_SITE.$TERMINUS_ENV" -- config-import --yes
